@@ -112,8 +112,8 @@ nav a.active::after {
   background: var(--white);
   border: 1px solid var(--green-light);
   color: var(--green-mid);
-  font-size: 13px; font-weight: 600;
-  padding: 6px 14px; border-radius: 20px;
+  font-size: 16px; font-weight: 600;
+  padding: 10px 20px; border-radius: 20px;
   margin-bottom: 22px;
 }
 .hero h1 { font-family: 'Playfair Display', serif; font-size: 52px; line-height: 1.15; color: var(--text); margin-bottom: 10px; }
