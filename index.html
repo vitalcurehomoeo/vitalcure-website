@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ── PAGE TITLE – Change this ── -->
+  <title>VitalCure Homoeopathy Clinic – Dr. Ashwini Kore</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ============================================================
+  TOP BAR
+  Edit: phone number, email, address
+============================================================ -->
+<div class="topbar">
+  <span>📍 Shop 66, Vrundawan Haware, Plot No. 52, Khanda Colony, Sector-9, Panvel – 410 206</span>
+  <span>
+    <span>📞 <a href="tel:+918421607933">+91 84216 07933</a></span>
+    &nbsp;|&nbsp;
+    <span>✉️ <a href="mailto:aswineeyarnal@gmail.com">aswineeyarnal@gmail.com</a></span>
+  </span>
+</div>
+
+<!-- ============================================================
+  HEADER / NAVIGATION
+  Edit: nav links, logo text, book button link
+============================================================ -->
+<header id="top">
+  <div class="logo">
+    <div class="logo-circle">
+  <img src="images/logo.jpeg" alt="VitalCure Logo" style="width:58px; height:58px; border-radius:50%; object-fit:cover;">
+</div>
+<div class="logo-text">
+  <div class="brand">VitalCure</div>
+  <div class="tagline">Heal Naturally with Homoeopathy · Safe · Gentle · Effective</div>
+</div>
+  </div>
+  <nav>
+    <a href="#top"          class="active">Home</a>
+    <a href="#about-us">About Us</a>
+    <a href="#treatments">Treatments</a>
+    <a href="#homoeopathy">Our Approach</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#faq">FAQ</a>
+    <a href="#contact">Contact Us</a>
+  </nav>
+  <a href="#contact" class="btn-book">📅 Book Appointment</a>
+</header>
+
+<!-- ============================================================
+  HERO SECTION
+  Edit: badge text, headline, subtext, CTA buttons
+============================================================ -->
+<section class="hero" id="home">
+  <div class="hero-left">
+    <div class="hero-badge">🌱 Dr. Ashwini Kore &nbsp;|&nbsp; BHMS, MD (Hom.), PGDPC</div>
+    <h1>Natural Healing.<br>Safe Treatment.<br><span>Lasting Results.</span></h1>
+    <p class="hero-sub">
+      Heal Naturally with Homoeopathy<br>
+      <strong>Safe &nbsp;·&nbsp; Gentle &nbsp;·&nbsp; Effective</strong>
+    </p>
+    <div class="hero-ctas">
+      <a href="#contact"                   class="btn-primary">📅 Book Appointment</a>
+      <a href="tel:+918421607933"          class="btn-outline">📞 Call Now</a>
+      <a href="https://wa.me/918421607933" class="btn-outline">💬 WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Hero Illustration (SVG) -->
+  <!-- TO REPLACE WITH A REAL PHOTO: remove the SVG block and use:
+       <img src="images/hero-doctor.jpg" alt="Dr. Ashwini Kore" style="border-radius:24px; width:380px; height:380px; object-fit:cover;">
+  -->
+  <div class="hero-right">
+    <div class="hero-image-box" style="position:relative;">
+    <img src="images/sideimage.jpeg" alt="Homoeopathy" 
+         style="width:200%; height:100%; object-fit:cover; border-radius:24px;">
+
+      <!-- Floating info badges -->
+      <div class="hero-float f1"><div class="dot"></div> 14+ Years Experience</div>
+      <div class="hero-float f2"><div class="dot"></div> Holistic Healing</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  TRUST STRIP
+  Edit: icons, bold text, sub text for each item
+============================================================ -->
+<div class="trust-strip">
+  <div class="trust-item">
+    <div class="trust-icon">🍃</div>
+    <div>
+      <strong>Natural &amp; Safe</strong>
+      <span>Gentle healing without side effects</span>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">🎯</div>
+    <div>
+      <strong>Treats Root Cause</strong>
+      <span>We focus on the root cause, not just symptoms</span>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">👨‍👩‍👧</div>
+    <div>
+      <strong>All Age Groups</strong>
+      <span>Safe for infants, adults, and elderly</span>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">⭐</div>
+    <div>
+      <strong>14+ Years Experience</strong>
+      <span>Trusted by 1000+ patients in Panvel</span>
+    </div>
+  </div>
+  <div class="trust-item">
+    <div class="trust-icon">💬</div>
+    <div>
+      <strong>Online Consultation</strong>
+      <span>Consult from the comfort of your home</span>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================================
+  TREATMENTS SECTION
+  Edit: add/remove .treat-card blocks to add/remove treatments
+  Format:
+    <div class="treat-card">
+      <span class="treat-icon">EMOJI</span>
+      <div class="treat-name">CONDITION NAME</div>
+      <div class="treat-desc">Short description (hidden by default)</div>
+    </div>
+============================================================ -->
+<section id="treatments" class="treatments-bg">
+  <div class="section-label centered">🌿 TREATMENTS</div>
+  <h2 class="section-title">Conditions We Treat</h2>
+  <p class="section-sub">Effective homoeopathic solutions for a wide range of acute and chronic health conditions across all age groups.</p>
+
+  <div class="treatments-grid">
+    <div class="treat-card">
+    <img src="images/skin.jpg" alt="Skin Problems" class="treat-img">
+    <div class="treat-name">Skin Problems</div>
+    <div class="treat-desc">Eczema, psoriasis, acne treated from within to address root cause and prevent recurrence.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/hair.jpg" alt="Hair Problems" class="treat-img">
+    <div class="treat-name">Hair Problems</div>
+    <div class="treat-desc">Hair loss and dandruff by addressing nutritional deficiencies, hormonal shifts, or stress.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/respiratory.jpg" alt="Allergies & Asthma" class="treat-img">
+    <div class="treat-name">Allergies &amp; Asthma</div>
+    <div class="treat-desc">Effective management for asthma, bronchitis, and chronic allergies to improve breathing.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/gastric.jpg" alt="Digestive Issues" class="treat-img">
+    <div class="treat-name">Digestive Issues</div>
+    <div class="treat-desc">From acidity and bloating to IBS, long-term relief from digestive discomfort.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/joint.jpg" alt="Joint Pain & Arthritis" class="treat-img">
+    <div class="treat-name">Joint Pain &amp; Arthritis</div>
+    <div class="treat-desc">Reducing inflammation and improving joint mobility for an active lifestyle.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/female.jpg" alt="Women's Health" class="treat-img">
+    <div class="treat-name">Women's Health</div>
+    <div class="treat-desc">Menstrual irregularities, PCOD, and menopausal symptoms — restoring hormonal balance naturally.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/children.jpg" alt="Child Health" class="treat-img">
+    <div class="treat-name">Child Health</div>
+    <div class="treat-desc">Safe, sweet, and easy for children. Recurrent colds, tonsillitis, and behavioural concerns.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/mental.jpg" alt="Stress, Anxiety & Sleep" class="treat-img">
+    <div class="treat-name">Stress, Anxiety &amp; Sleep</div>
+    <div class="treat-desc">Personalized treatment for anxiety, stress, and depression addressing emotional triggers.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/bp.jpg" alt="BP, Diabetes & Thyroid" class="treat-img">
+    <div class="treat-name">BP, Diabetes &amp; Thyroid</div>
+    <div class="treat-desc">Supportive therapy for lifestyle disorders — managing sugar, BP, and thyroid imbalances.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/immunity.jpg" alt="Low Immunity" class="treat-img">
+    <div class="treat-name">Low Immunity</div>
+    <div class="treat-desc">Strengthening the body's natural defence system against recurrent infections.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/piles.jpg" alt="Piles & Fissure" class="treat-img">
+    <div class="treat-name">Piles &amp; Fissure</div>
+    <div class="treat-desc">Non-surgical solutions improving venous circulation and regulating bowel movements.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/kidney.jpg" alt="Kidney & Liver" class="treat-img">
+    <div class="treat-name">Kidney &amp; Liver</div>
+    <div class="treat-desc">Supportive care to improve liver function and manage kidney-related concerns.</div>
+  </div>
+
+  <div class="treat-card">
+    <img src="images/migraine.jpg" alt="Migraine" class="treat-img">
+    <div class="treat-name">Migraine</div>
+    <div class="treat-desc">Long-term solution identifying specific triggers to reduce intensity and frequency of pain.</div>
+  </div>
+</div>
+
+  <div class="btn-center">
+    <a href="#contact" class="btn-primary">View All Treatments &rarr;</a>
+  </div>
+</section>
+
+<!-- ============================================================
+  ABOUT HOMOEOPATHY / OUR APPROACH SECTION
+  Edit: paragraph text, reasons list, mission text, stats
+============================================================ -->
+<section id="homoeopathy">
+  <div class="homoeo-grid">
+    <div class="homoeo-left">
+      <div class="section-label">🌿 OUR APPROACH</div>
+      <h2>What is Homoeopathy?</h2>
+      <p>Homoeopathy is a natural and holistic system of medicine that treats the individual as a whole—body, mind, and spirit. Founded on the principle of <em>"Like Cures Like,"</em> it uses highly diluted natural substances to trigger the body's own innate healing mechanisms.</p>
+
+      <!-- Edit reasons below: icon, title, description -->
+      <div class="reasons">
+        <div class="reason">
+          <div class="reason-icon">🎯</div>
+          <div class="reason-text">
+            <strong>Personalized Care</strong>
+            <span>Treatments tailored to your unique symptoms, personality, and lifestyle — not one-size-fits-all.</span>
+          </div>
+        </div>
+        <div class="reason">
+          <div class="reason-icon">🍃</div>
+          <div class="reason-text">
+            <strong>Safe &amp; Gentle</strong>
+            <span>Remedies prepared in micro-doses are non-toxic and free from harsh side effects.</span>
+          </div>
+        </div>
+        <div class="reason">
+          <div class="reason-icon">🔍</div>
+          <div class="reason-text">
+            <strong>Root-Cause Focus</strong>
+            <span>Instead of masking symptoms, we address the underlying cause for long-term health.</span>
+          </div>
+        </div>
+        <div class="reason">
+          <div class="reason-icon">👨‍👩‍👧</div>
+          <div class="reason-text">
+            <strong>Suitable for All</strong>
+            <span>Safe for everyone — infants, pregnant women, and the elderly.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="homoeo-right">
+      <h3>Our Mission</h3>
+      <p>To provide gentle, effective, and lasting relief by restoring your body's natural balance and vitality. We believe that true health is not merely the absence of disease, but a state of complete harmony between mind, body, and spirit.</p>
+      <div class="mission-badge">
+        ✦ &nbsp; At VitalCure, we combine classical homoeopathy principles with modern clinical understanding — bringing you the best of both worlds in a compassionate, patient-centred environment.
+      </div>
+
+      <!-- Edit stats below: number + label -->
+      <div style="margin-top:28px; display:flex; gap:20px; flex-wrap:wrap;">
+        <div style="text-align:center;">
+          <div style="font-size:32px; font-weight:800; font-family:'Playfair Display',serif;">14+</div>
+          <div style="font-size:13px; opacity:.8;">Years Experience</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:32px; font-weight:800; font-family:'Playfair Display',serif;">1000+</div>
+          <div style="font-size:13px; opacity:.8;">Patients Treated</div>
+        </div>
+        <div style="text-align:center;">
+          <div style="font-size:32px; font-weight:800; font-family:'Playfair Display',serif;">13+</div>
+          <div style="font-size:13px; opacity:.8;">Conditions Treated</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  ABOUT US / DOCTOR SECTION
+  Edit: doctor name, qualifications, bio paragraphs, strength cards
+============================================================ -->
+<section id="about-us" class="about-bg">
+  <div class="section-label centered">🌿 ABOUT US</div>
+  <h2 class="section-title">Your Health is Our Priority</h2>
+  <p class="section-sub">Dedicated to providing safe, natural, and effective homoeopathic treatment with a focus on the root cause and overall well-being.</p>
+
+  <div class="about-grid">
+    <!-- Doctor Card -->
+    <div>
+      <div class="doctor-card">
+        <!--
+          TO ADD REAL PHOTO: Replace the div below with:
+          <img src="images/doctor.jpg" alt="Dr. Ashwini Kore" style="width:100%; height:300px; object-fit:cover;">
+        -->
+        <div class="doctor-photo">👩‍⚕️</div>
+        <div class="doctor-info">
+          <h3>Dr. Ashwini Kore</h3>
+          <div class="quals">BHMS, MD (Hom.), PGDPC</div>
+          <span class="exp-badge">🏅 14+ Years Clinical Experience</span>
+          <p style="margin-top:14px; font-size:13.5px; color:var(--text-soft); line-height:1.6;">
+            Homoeopathic Physician specializing in safe, gentle, and effective treatments with a patient-centric approach.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Text -->
+    <div class="about-right">
+      <h2>Meet Dr. Ashwini Kore</h2>
+      <p>Dr. Ashwini Kore is a highly experienced and dedicated homoeopathic physician with over 14 years of clinical expertise in providing safe, gentle, and effective treatments. With a strong academic background and a patient-centric approach, she is committed to delivering holistic healing by addressing the root cause of illnesses rather than just managing symptoms.</p>
+      <p>She holds a Bachelor of Homoeopathic Medicine and Surgery (BHMS), a Doctor of Medicine in Homoeopathy (MD Hom.), and a Post Graduate Diploma in Psychological Counselling (PGDPC), enabling her to treat patients with a comprehensive understanding of both physical and emotional well-being.</p>
+
+      <!-- Edit strength cards below -->
+      <div class="strengths">
+        <div class="strength">
+          <div class="ico">🌀</div>
+          <div>
+            <strong>Holistic Healing</strong>
+            <span>Treats the individual as a whole — mind, body, and lifestyle.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">📋</div>
+          <div>
+            <strong>Personalized Plans</strong>
+            <span>Customized remedies based on detailed case analysis.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">🔬</div>
+          <div>
+            <strong>Strong Diagnostics</strong>
+            <span>Identifies root causes and chronic patterns effectively.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">💚</div>
+          <div>
+            <strong>Compassionate Care</strong>
+            <span>Known for empathetic listening and patient-friendly consultations.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">🏆</div>
+          <div>
+            <strong>Chronic Conditions</strong>
+            <span>Special interest in long-standing and recurring health issues.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">📚</div>
+          <div>
+            <strong>Evidence-Based</strong>
+            <span>Classical homoeopathy principles with modern understanding.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">🎓</div>
+          <div>
+            <strong>Patient Education</strong>
+            <span>Guides toward long-term wellness and preventive health.</span>
+          </div>
+        </div>
+        <div class="strength">
+          <div class="ico">🧘</div>
+          <div>
+            <strong>Ethical Practice</strong>
+            <span>Builds trust through dedication and consistent results.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  WHY CHOOSE US SECTION
+  Edit: each .why-card with new icon, title, description
+============================================================ -->
+<section id="why">
+  <div class="section-label centered">🌿 WHY CHOOSE US</div>
+  <h2 class="section-title">Why Choose VitalCure?</h2>
+  <p class="section-sub">A comprehensive, compassionate approach that puts your long-term health first.</p>
+
+  <div class="why-grid">
+    <div class="why-card">
+      <div class="ico">🎯</div>
+      <strong>Personalized Treatment</strong>
+      <p>Treatment based on your unique symptoms and lifestyle for targeted, effective results.</p>
+    </div>
+    <div class="why-card">
+      <div class="ico">👩‍⚕️</div>
+      <strong>Experienced Doctor</strong>
+      <p>Qualified and experienced homoeopathic doctor you can trust with 14+ years of practice.</p>
+    </div>
+    <div class="why-card">
+      <div class="ico">🍃</div>
+      <strong>No Side Effects</strong>
+      <p>100% safe, natural, and gentle treatment without any harmful side effects.</p>
+    </div>
+    <div class="why-card">
+      <div class="ico">💰</div>
+      <strong>Affordable Care</strong>
+      <p>Quality homoeopathic treatment at affordable consultation fees.</p>
+    </div>
+    <div class="why-card">
+      <div class="ico">🏡</div>
+      <strong>Friendly Environment</strong>
+      <p>A comfortable and caring space for healing and wellness.</p>
+    </div>
+    <div class="why-card">
+      <div class="ico">💊</div>
+      <strong>Genuine Medicines</strong>
+      <p>We use only genuine and high-quality homoeopathic medicines.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  TESTIMONIALS SECTION
+  Edit: add/remove .testi-card blocks; change review text, name, location
+  Format:
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Review text here..."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">INITIAL</div>
+        <div class="testi-author-info">
+          <strong>Full Name</strong>
+          <span>Condition – City</span>
+        </div>
+      </div>
+    </div>
+============================================================ -->
+<section id="testimonials" class="treatments-bg">
+  <div class="section-label centered">🌿 TESTIMONIALS</div>
+  <h2 class="section-title">What Our Patients Say</h2>
+  <p class="section-sub">Trusted by hundreds of patients across all age groups. Here's what some of them have shared.</p>
+
+  <div class="testimonials-grid">
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Dr. Kore is absolutely wonderful. She listened to all my concerns patiently and her treatment for my chronic skin issue has given me lasting results after years of trying other medicines."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">P</div>
+        <div class="testi-author-info">
+          <strong>Priya Sharma</strong>
+          <span>Skin Problems – Panvel</span>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"My son had repeated colds and tonsillitis. After 3 months of treatment at VitalCure, his immunity has improved dramatically. The medicines were easy for him to take too!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">R</div>
+        <div class="testi-author-info">
+          <strong>Rahul Mehta</strong>
+          <span>Child Health – Navi Mumbai</span>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"I was suffering from severe migraines for years. Dr. Ashwini's treatment has reduced frequency significantly. She is compassionate, knowledgeable, and truly holistic in her approach."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">S</div>
+        <div class="testi-author-info">
+          <strong>Sunita Patil</strong>
+          <span>Migraine – Khanda Colony</span>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"My PCOD has been well managed with homoeopathy. Dr. Kore also gave me diet and lifestyle guidance which made a huge difference. Highly recommend VitalCure!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">A</div>
+        <div class="testi-author-info">
+          <strong>Anjali Desai</strong>
+          <span>Women's Health – Panvel</span>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"The joint pain I had for years has reduced so much. I can walk freely now. Treatment was gradual but the improvement is real and lasting. Very grateful to Dr. Kore."</p>
+      <div class="testi-author">
+        <div class="testi-avatar">V</div>
+        <div class="testi-author-info">
+          <strong>Vijay Raut</strong>
+          <span>Joint Pain – Sector 9</span>
+        </div>
+      </div>
+    </div>
+    <div class="testi-card">
+      <div class="stars">★★★★★</div>
+      <p class="testi-text">"Online consultation was smooth and medicines were delivered. Dr. Ashwini's approach is very thorough — she understands your problem at a deeper level. 5 stars!"</p>
+      <div class="testi-author">
+        <div class="testi-avatar">M</div>
+        <div class="testi-author-info">
+          <strong>Meera Joshi</strong>
+          <span>Online Patient – Pune</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  FAQ SECTION
+  Edit: question text and answer text inside each .faq-item
+  To ADD a new FAQ: copy one .faq-item block and paste below the last one
+============================================================ -->
+<section id="faq" class="faq-bg">
+  <div class="section-label centered">🌿 FAQ</div>
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  <p class="section-sub">Everything you need to know about homoeopathic treatment at VitalCure.</p>
+
+  <div class="faq-container">
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">What is Homoeopathy and how does it work? <span class="arrow">▾</span></div>
+      <div class="faq-a">Homoeopathy is a natural system of medicine based on the principle of "like cures like." It uses highly diluted remedies to stimulate the body's own healing mechanism. Treatment focuses on the individual as a whole, considering physical, mental, and emotional aspects.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Is Homoeopathy safe for all age groups? <span class="arrow">▾</span></div>
+      <div class="faq-a">Yes, homoeopathy is gentle and safe for people of all ages, including infants, pregnant women, and the elderly. Medicines are non-toxic and suitable for long-term use under proper guidance.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">How long does treatment take to show results? <span class="arrow">▾</span></div>
+      <div class="faq-a">The time required depends on the condition. Acute illnesses often respond quickly, while chronic conditions may take longer as the treatment works on the root cause for lasting relief.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Are there any side effects of homoeopathic medicines? <span class="arrow">▾</span></div>
+      <div class="faq-a">Homoeopathic medicines are natural and generally free from side effects when prescribed correctly. They are designed to work gently without causing harm to the body.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Can I take Homoeopathy along with other medications? <span class="arrow">▾</span></div>
+      <div class="faq-a">Yes, homoeopathy can be taken alongside conventional treatments. It may support overall healing and, in some cases, help reduce dependency on other medicines over time (with medical supervision).</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Is Homoeopathy effective for chronic diseases? <span class="arrow">▾</span></div>
+      <div class="faq-a">Yes, it is especially effective in managing chronic conditions such as allergies, skin disorders, migraines, arthritis, and hormonal imbalances by addressing the underlying cause rather than just symptoms.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Are there any diet restrictions during treatment? <span class="arrow">▾</span></div>
+      <div class="faq-a">Only minimal precautions are usually advised, such as avoiding strong flavors like coffee or mint close to medicine intake. Otherwise, patients can maintain a normal diet.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Is online / tele-consultation available? <span class="arrow">▾</span></div>
+      <div class="faq-a">Yes, we provide online consultation at VitalCure. You just need to call to book your online consultation slot.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Can pregnant women take Homoeopathy? <span class="arrow">▾</span></div>
+      <div class="faq-a">Yes, homoeopathy is generally safe during pregnancy when taken under professional supervision and can help manage common issues like nausea, acidity, and back pain.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">What happens during the first consultation? <span class="arrow">▾</span></div>
+      <div class="faq-a">The first consultation involves a detailed discussion about your symptoms, medical history, lifestyle, and emotional health. This helps in selecting the most suitable remedy for you.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+  CONTACT SECTION
+  Edit: address, phone, email, WhatsApp link, form dropdown options
+============================================================ -->
+<section id="contact">
+  <div class="contact-grid">
+
+    <!-- Contact Info Column -->
+    <div class="contact-info">
+      <div class="section-label">🌿 CONTACT US</div>
+      <h2>Book Your Appointment</h2>
+      <p>Ready to start your healing journey? Reach out to us and we'll help you schedule a consultation with Dr. Ashwini Kore at your convenience.</p>
+
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="ico-box">📍</div>
+          <div>
+            <strong>Our Clinic</strong>
+            <span>Shop 66, Vrundawan Haware, Plot No. 52,<br>Khanda Colony, Sector-9, Panvel – 410 206</span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico-box">📞</div>
+          <div>
+            <strong>Phone</strong>
+            <span><a href="tel:+918421607933" style="color:var(--green-mid); font-weight:600;">+91 84216 07933</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico-box">✉️</div>
+          <div>
+            <strong>Email</strong>
+            <span><a href="mailto:aswineeyarnal@gmail.com" style="color:var(--green-mid); font-weight:600;">aswineeyarnal@gmail.com</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico-box">💬</div>
+          <div>
+            <strong>WhatsApp</strong>
+            <span><a href="https://wa.me/918421607933" style="color:var(--green-mid); font-weight:600;">Message us on WhatsApp</a></span>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="ico-box">🌐</div>
+          <div>
+            <strong>Online Consultation</strong>
+            <span>Available — call to book your online slot</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Column -->
+    <div class="contact-form">
+      <h3>Send Us a Message</h3>
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" placeholder="Priya">
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" placeholder="Sharma">
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="+91 98765 43210">
+      </div>
+      <div class="form-group">
+        <label>Email Address</label>
+        <input type="email" placeholder="priya@email.com">
+      </div>
+      <div class="form-group">
+        <label>Condition / Concern</label>
+        <!-- Edit the <option> list to add/remove conditions -->
+        <select>
+          <option value="">Select a condition...</option>
+          <option>Skin Problems</option>
+          <option>Hair Problems</option>
+          <option>Allergies &amp; Asthma</option>
+          <option>Digestive Issues</option>
+          <option>Joint Pain &amp; Arthritis</option>
+          <option>Women's Health</option>
+          <option>Child Health</option>
+          <option>Stress, Anxiety &amp; Sleep</option>
+          <option>BP, Diabetes &amp; Thyroid</option>
+          <option>Migraine</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>Your Message</label>
+        <textarea placeholder="Tell us briefly about your health concern..."></textarea>
+      </div>
+      <!-- Edit the onclick alert message or wire up a real form submission here -->
+      <button class="btn-submit" onclick="sendWhatsApp()">
+        📅 Book Appointment
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+  FOOTER
+  Edit: social links, quick links, treatments list, contact details
+============================================================ -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="brand-name">🌿 VitalCure</div>
+      <p>Heal Naturally with Homoeopathy.<br>Safe · Gentle · Effective</p>
+      <!-- Edit href for real social media pages -->
+      <div class="footer-socials">
+        <a href="#" title="Facebook">f</a>
+        <a href="#" title="Instagram">ig</a>
+        <a href="https://wa.me/918421607933" title="WhatsApp">wa</a>
+      </div>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#top">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#treatments">Treatments</a></li>
+        <li><a href="#homoeopathy">Our Approach</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Our Treatments</h4>
+      <ul class="footer-treat">
+        <li><a href="#treatments">Skin Problems</a></li>
+        <li><a href="#treatments">Hair Problems</a></li>
+        <li><a href="#treatments">Allergies &amp; Asthma</a></li>
+        <li><a href="#treatments">Digestive Issues</a></li>
+        <li><a href="#treatments">Joint Pain &amp; Arthritis</a></li>
+        <li><a href="#treatments">Women's Health</a></li>
+        <li><a href="#treatments">Child Health</a></li>
+        <li><a href="#treatments">Stress, Anxiety &amp; Sleep</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Contact Us</h4>
+      <ul class="footer-contact">
+        <li>📍 <span>Shop 66, Vrundawan Haware, Plot No. 52, Khanda Colony, Sector-9, Panvel – 410 206</span></li>
+        <li>📞 <span><a href="tel:+918421607933" style="color:#b7e4c7;">+91 84216 07933</a></span></li>
+        <li>✉️ <span><a href="mailto:aswineeyarnal@gmail.com" style="color:#b7e4c7;">aswineeyarnal@gmail.com</a></span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    &copy; 2024 VitalCure Homoeopathy Clinic. All Rights Reserved. | Dr. Ashwini Kore – BHMS, MD (Hom.), PGDPC
+  </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
