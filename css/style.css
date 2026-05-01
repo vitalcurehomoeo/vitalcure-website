@@ -474,3 +474,112 @@ footer ul li a:hover { opacity: 1; }
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
 }
+/* =========================================================
+   MOBILE RESPONSIVE STYLES
+   ========================================================= */
+@media (max-width: 768px) {
+
+  /* ── TOP BAR ── */
+  .topbar {
+    flex-direction: column;
+    text-align: center;
+    font-size: 11px;
+    padding: 8px 16px;
+    gap: 4px;
+  }
+
+  /* ── HEADER ── */
+  header {
+    padding: 10px 16px;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  nav { display: none; } /* Hide nav on mobile */
+  .btn-book { font-size: 12px; padding: 8px 14px; }
+  .logo-text .brand { font-size: 22px; }
+  .logo-text .tagline { font-size: 10px; }
+  .logo-circle img { width: 44px; height: 44px; }
+
+  /* ── HERO ── */
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px 30px;
+    min-height: auto;
+    gap: 30px;
+  }
+  .hero h1 { font-size: 34px; }
+  .hero-sub { font-size: 15px; }
+  .hero-right { width: 100%; }
+  .hero-image-box {
+    width: 100% !important;
+    height: 260px !important;
+  }
+  .hero-ctas { flex-direction: column; gap: 10px; }
+  .btn-primary, .btn-outline { width: 100%; justify-content: center; }
+
+  /* ── TRUST STRIP ── */
+  .trust-strip {
+    flex-direction: column;
+    padding: 20px 16px;
+    gap: 16px;
+  }
+
+  /* ── SECTIONS ── */
+  section { padding: 50px 16px; }
+  h2.section-title { font-size: 28px; }
+  .section-sub { font-size: 14px; }
+
+  /* ── TREATMENTS GRID ── */
+  .treatments-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  .treat-img { height: 100px; }
+
+  /* ── HOMOEOPATHY SECTION ── */
+  .homoeo-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .homoeo-left h2 { font-size: 26px; }
+
+  /* ── ABOUT / DOCTOR SECTION ── */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .strengths {
+    grid-template-columns: 1fr;
+  }
+
+  /* ── WHY CHOOSE US ── */
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  /* ── TESTIMONIALS ── */
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* ── CONTACT SECTION ── */
+  .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .contact-form {
+    padding: 24px 18px;
+  }
+
+  /* ── FOOTER ── */
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  footer { padding: 40px 20px 20px; }
+
+}
